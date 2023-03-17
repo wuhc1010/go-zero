@@ -11,18 +11,18 @@ import (
 	"github.com/logrusorgru/aurora"
 	"github.com/spf13/cobra"
 	"github.com/withfig/autocomplete-tools/integrations/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/api"
-	"github.com/zeromicro/go-zero/tools/goctl/bug"
-	"github.com/zeromicro/go-zero/tools/goctl/docker"
-	"github.com/zeromicro/go-zero/tools/goctl/env"
-	"github.com/zeromicro/go-zero/tools/goctl/internal/version"
-	"github.com/zeromicro/go-zero/tools/goctl/kube"
-	"github.com/zeromicro/go-zero/tools/goctl/migrate"
-	"github.com/zeromicro/go-zero/tools/goctl/model"
-	"github.com/zeromicro/go-zero/tools/goctl/quickstart"
-	"github.com/zeromicro/go-zero/tools/goctl/rpc"
-	"github.com/zeromicro/go-zero/tools/goctl/tpl"
-	"github.com/zeromicro/go-zero/tools/goctl/upgrade"
+	"github.com/wuhc1010/go-zero/tools/goctl/api"
+	"github.com/wuhc1010/go-zero/tools/goctl/bug"
+	"github.com/wuhc1010/go-zero/tools/goctl/docker"
+	"github.com/wuhc1010/go-zero/tools/goctl/env"
+	"github.com/wuhc1010/go-zero/tools/goctl/internal/version"
+	"github.com/wuhc1010/go-zero/tools/goctl/kube"
+	"github.com/wuhc1010/go-zero/tools/goctl/migrate"
+	"github.com/wuhc1010/go-zero/tools/goctl/model"
+	"github.com/wuhc1010/go-zero/tools/goctl/quickstart"
+	"github.com/wuhc1010/go-zero/tools/goctl/rpc"
+	"github.com/wuhc1010/go-zero/tools/goctl/tpl"
+	"github.com/wuhc1010/go-zero/tools/goctl/upgrade"
 )
 
 const (
@@ -40,7 +40,7 @@ var (
 		Use:   "goctl",
 		Short: "A cli tool to generate go-zero code",
 		Long: "A cli tool to generate api, zrpc, model code\n\n" +
-			"GitHub: https://github.com/zeromicro/go-zero\n" +
+			"GitHub: https://github.com/wuhc1010/go-zero\n" +
 			"Site:   https://go-zero.dev",
 	}
 )

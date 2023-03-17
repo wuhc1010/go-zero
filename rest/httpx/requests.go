@@ -6,10 +6,10 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/zeromicro/go-zero/core/mapping"
-	"github.com/zeromicro/go-zero/rest/internal/encoding"
-	"github.com/zeromicro/go-zero/rest/internal/header"
-	"github.com/zeromicro/go-zero/rest/pathvar"
+	"github.com/wuhc1010/go-zero/core/mapping"
+	"github.com/wuhc1010/go-zero/rest/internal/encoding"
+	"github.com/wuhc1010/go-zero/rest/internal/header"
+	"github.com/wuhc1010/go-zero/rest/pathvar"
 )
 
 const (

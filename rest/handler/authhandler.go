@@ -7,9 +7,9 @@ import (
 	"net/http/httputil"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/rest/internal/response"
-	"github.com/zeromicro/go-zero/rest/token"
+	"github.com/wuhc1010/go-zero/core/logx"
+	"github.com/wuhc1010/go-zero/rest/internal/response"
+	"github.com/wuhc1010/go-zero/rest/token"
 )
 
 const (

@@ -3,8 +3,8 @@ package kube
 import (
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/wuhc1010/go-zero/core/lang"
+	"github.com/wuhc1010/go-zero/core/logx"
 	v1 "k8s.io/api/core/v1"
 )
 

@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/api/gogen"
-	conf "github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/wuhc1010/go-zero/tools/goctl/api/gogen"
+	conf "github.com/wuhc1010/go-zero/tools/goctl/config"
+	"github.com/wuhc1010/go-zero/tools/goctl/util"
+	"github.com/wuhc1010/go-zero/tools/goctl/util/pathx"
 )
 
 //go:embed api.tpl

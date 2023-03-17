@@ -4,13 +4,13 @@ import (
 	"log"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/load"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/core/stores/redis"
-	"github.com/zeromicro/go-zero/zrpc/internal"
-	"github.com/zeromicro/go-zero/zrpc/internal/auth"
-	"github.com/zeromicro/go-zero/zrpc/internal/serverinterceptors"
+	"github.com/wuhc1010/go-zero/core/load"
+	"github.com/wuhc1010/go-zero/core/logx"
+	"github.com/wuhc1010/go-zero/core/stat"
+	"github.com/wuhc1010/go-zero/core/stores/redis"
+	"github.com/wuhc1010/go-zero/zrpc/internal"
+	"github.com/wuhc1010/go-zero/zrpc/internal/auth"
+	"github.com/wuhc1010/go-zero/zrpc/internal/serverinterceptors"
 	"google.golang.org/grpc"
 )
 

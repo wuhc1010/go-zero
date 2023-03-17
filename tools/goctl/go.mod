@@ -1,4 +1,4 @@
-module github.com/zeromicro/go-zero/tools/goctl
+module github.com/wuhc1010/go-zero/tools/goctl
 
 go 1.18
 
@@ -12,9 +12,9 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/stretchr/testify v1.8.2
 	github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1
-	github.com/zeromicro/antlr v0.0.1
-	github.com/zeromicro/ddl-parser v1.0.4
-	github.com/zeromicro/go-zero v1.5.0
+	github.com/wuhc1010/antlr v0.0.1
+	github.com/wuhc1010/ddl-parser v1.0.4
+	github.com/wuhc1010/go-zero v1.5.0
 	golang.org/x/text v0.8.0
 	google.golang.org/grpc v1.53.0
 	google.golang.org/protobuf v1.29.1

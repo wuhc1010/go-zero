@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/model/mongo/generate"
-	file "github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/wuhc1010/go-zero/tools/goctl/config"
+	"github.com/wuhc1010/go-zero/tools/goctl/model/mongo/generate"
+	file "github.com/wuhc1010/go-zero/tools/goctl/util"
+	"github.com/wuhc1010/go-zero/tools/goctl/util/pathx"
 )
 
 var (

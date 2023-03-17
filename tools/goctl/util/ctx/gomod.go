@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/rpc/execx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/wuhc1010/go-zero/tools/goctl/rpc/execx"
+	"github.com/wuhc1010/go-zero/tools/goctl/util/pathx"
 )
 
 const goModuleWithoutGoFiles = "command-line-arguments"

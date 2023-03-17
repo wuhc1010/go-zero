@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/iancoleman/strcase"
-	"github.com/zeromicro/go-zero/tools/goctl/api/util"
+	"github.com/wuhc1010/go-zero/tools/goctl/api/util"
 )
 
 var funcsMap = template.FuncMap{

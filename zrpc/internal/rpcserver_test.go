@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/zrpc/internal/mock"
+	"github.com/wuhc1010/go-zero/core/proc"
+	"github.com/wuhc1010/go-zero/core/stat"
+	"github.com/wuhc1010/go-zero/zrpc/internal/mock"
 	"google.golang.org/grpc"
 )
 

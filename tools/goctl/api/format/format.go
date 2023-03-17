@@ -12,10 +12,10 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/api/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/wuhc1010/go-zero/core/errorx"
+	"github.com/wuhc1010/go-zero/tools/goctl/api/parser"
+	"github.com/wuhc1010/go-zero/tools/goctl/api/util"
+	"github.com/wuhc1010/go-zero/tools/goctl/util/pathx"
 )
 
 const (

@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal"
+	"github.com/wuhc1010/go-zero/rest/httpx"
+	"github.com/wuhc1010/go-zero/rest/internal"
 )
 
 const (
@@ -159,7 +159,8 @@ func (tw *timeoutWriter) Write(p []byte) (int, error) {
 	if !tw.wroteHeader {
 		tw.writeHeaderLocked(http.StatusOK)
 	}
-	return tw.wbuf.Write(p)
+
+    return tw.wbuf.Write(p)
 }
 
 func (tw *timeoutWriter) writeHeaderLocked(code int) {

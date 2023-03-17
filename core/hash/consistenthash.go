@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/lang"
+	"github.com/wuhc1010/go-zero/core/lang"
 )
 
 const (

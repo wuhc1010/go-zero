@@ -5,7 +5,7 @@ package name
 import (
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/util/stringx"
+	"github.com/wuhc1010/go-zero/tools/goctl/util/stringx"
 )
 
 // NamingStyle the type of string

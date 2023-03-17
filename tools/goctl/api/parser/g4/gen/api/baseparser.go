@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/zeromicro/antlr"
+	"github.com/wuhc1010/antlr"
 )
 
 const (

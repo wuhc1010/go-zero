@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/jsonx"
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/stringx"
+	"github.com/wuhc1010/go-zero/core/jsonx"
+	"github.com/wuhc1010/go-zero/core/lang"
+	"github.com/wuhc1010/go-zero/core/proc"
+	"github.com/wuhc1010/go-zero/core/stringx"
 )
 
 const (

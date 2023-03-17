@@ -9,9 +9,9 @@ import (
 	"time"
 
 	red "github.com/go-redis/redis/v8"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/mapping"
-	"github.com/zeromicro/go-zero/core/syncx"
+	"github.com/wuhc1010/go-zero/core/breaker"
+	"github.com/wuhc1010/go-zero/core/mapping"
+	"github.com/wuhc1010/go-zero/core/syncx"
 )
 
 const (
