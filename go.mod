@@ -1,4 +1,4 @@
-module github.com/zeromicro/go-zero
+module github.com/wuhc1010/go-zero
 
 go 1.18
 
