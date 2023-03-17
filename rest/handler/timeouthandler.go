@@ -187,6 +187,19 @@ func (tw *timeoutWriter) WriteHeader(code int) {
 	tw.writeHeaderLocked(code)
 }
 
+func (tw *timeoutWriter) Flush() {
+	tw.mu.Lock()
+	defer tw.mu.Unlock()
+
+	if tw.timedOut {
+		return
+	}
+
+	// the outer ResponseWriter object returned by WrapForHTTP1Or2 implements
+	// http.Flusher if the inner object (tw.w) implements http.Flusher.
+	tw.w.(http.Flusher).Flush()
+}
+
 func checkWriteHeaderCode(code int) {
 	if code < 100 || code > 599 {
 		panic(fmt.Sprintf("invalid WriteHeader code %v", code))
